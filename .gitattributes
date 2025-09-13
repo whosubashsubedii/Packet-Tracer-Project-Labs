@@ -1,0 +1,17 @@
+# Packet Tracer files (usually small, but archives can be large)
+*.pkt filter=lfs diff=lfs merge=lfs -text
+*.pktng filter=lfs diff=lfs merge=lfs -text
+
+# Common large documents and archives
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+
+# Microsoft Office docs
+*.doc filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.ppt filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text

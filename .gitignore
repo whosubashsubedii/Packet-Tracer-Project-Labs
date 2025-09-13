@@ -1,14 +1,16 @@
-# Packet Tracer files (usually small, but in case of exported archives)
-*.pkt filter=lfs diff=lfs merge=lfs -text
+# Packet Tracer project files (usually small, but may have exported archives)
+*.pkt~
 
-# Common large docs and archives
-*.pdf filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.tar.gz filter=lfs diff=lfs merge=lfs -text
-*.7z filter=lfs diff=lfs merge=lfs -text
-*.doc filter=lfs diff=lfs merge=lfs -text
-*.docx filter=lfs diff=lfs merge=lfs -text
-*.ppt filter=lfs diff=lfs merge=lfs -text
-*.pptx filter=lfs diff=lfs merge=lfs -text
-*.xls filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
+# Packet Tracer autosave or backup files
+*.pkt.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup and temp files
+*.bak
+*.tmp
+
+# Logs
+*.log
